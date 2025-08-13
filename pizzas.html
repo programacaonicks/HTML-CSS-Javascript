@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pizzas - Estrelare 89</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="completo.html">Completo</a></li>
+    <li><a href="lanches.html">Lanches</a></li>
+    <li><a href="pizzas.html">Pizzas</a></li>
+    <li><a href="esfihas.html">Esfihas</a></li>
+    <li><a href="pasteis.html">Pastéis</a></li>
+    <li><a href="acompanhamentos.html">Acompanhamentos</a></li>
+    <li><a href="sobremesas.html">Sobremesas</a></li>
+    <li><a href="bebidas.html">Bebidas</a></li>
+    <li><a href="drinks.html">Drink's</a></li>
+    <li><a href="sorvetes.html">Sorvetes e açaí</a></li>
+    <li><a href="combos.html">Combos</a></li>
+  </ul>
+</nav>
+    
+<h2>Pizzas salgadas</h2>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Marguerita
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$39,90</p>
+    <p class="produto-ingredientes">Molho de tomate, queijo muçarela, tomate, manjericão</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Calabresa
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$41,90</p>
+    <p class="produto-ingredientes">Molho de tomate, queijo muçarela, calabresa fatiada, cebola</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Frango com catupiry
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$44,90</p>
+    <p class="produto-ingredientes">Molho de tomate, frango desfiado, catupiry, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Quatro queijos
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$46,90</p>
+    <p class="produto-ingredientes">Molho de tomate, queijo muçarela, queijo gorgonzola, queijo provolone, queijo parmesão</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Portuguesa
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$45,90</p>
+    <p class="produto-ingredientes">Molho de tomate, queijo muçarela, presunto, ovo cozido, cebola, azeitonas, pimentão</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Pepperoni
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$44,90</p>
+    <p class="produto-ingredientes">Molho de tomate, queijo muçarela, pepperoni fatiado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Napolitana
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$39,90</p>
+    <p class="produto-ingredientes">Molho de tomate, queijo muçarela, tomate, azeitonas, oregano</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Atum com cebola
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$42,90</p>
+    <p class="produto-ingredientes">Molho de tomate, atum, cebola, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Carne seca com cebola roxa
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$49,90</p>
+    <p class="produto-ingredientes">Molho de tomate, carne seca desfiada, cebola roxa, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Palmito com ervas
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$44,90</p>
+    <p class="produto-ingredientes">Molho de tomate, palmito, queijo muçarela, ervas finas</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Brocolis com bacon
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$46,90</p>
+    <p class="produto-ingredientes">Molho de tomate, brocolis, bacon, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Camarão com requeijão cremoso
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$59,90</p>
+    <p class="produto-ingredientes">Molho de tomate, camarão, requeijão, queijo muçarela, alho frito</p>
+</div> 
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Muçarela com tomate seco
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$45,90</p>
+    <p class="produto-ingredientes">Molho de tomate, queijo muçarela, tomate seco, rúcula</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Abobrinha com alho e parmesão
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$43,90</p>
+    <p class="produto-ingredientes">Molho de tomate, abobrinha fatiada, alho frito, parmesão ralado, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Costela com barbecue
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$54,90</p>
+    <p class="produto-ingredientes">Molho barbecue, costela desfiada, cebola caramelizada, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Picanha acebolada
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$56,90</p>
+    <p class="produto-ingredientes">Molho de tomate, picanha desfiada, cebola, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Lombinho com catupiry
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$48,90</p>
+    <p class="produto-ingredientes">Molho de tomate, lombo canadense, catupiry, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Bacon com cheddar
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$47,90</p>
+    <p class="produto-ingredientes">Molho de tomate, bacon, cheddar cremoso, queijo muçarela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Frango ao curry
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$46,90</p>
+    <p class="produto-ingredientes">Molho de tomate, frango desfiado, queijo muçarela, cebola roxa</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Linguiça toscana com pimentão
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$44,90</p>
+    <p class="produto-ingredientes">Molho de tomate, linguiça toscana moida, pimentão fatiado, queijo muçarela</p>
+</div>
+
+    <h2>Pizzas doces</h2>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Nutella com morango
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$49,90</p>
+    <p class="produto-ingredientes">Base creme de leite, nutella, morango fatiado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Brigadeiro
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$42,90</p>
+    <p class="produto-ingredientes">Base creme de leite, brigadeiro cremoso, granulado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Romeu e Julieta
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$39,90</p>
+    <p class="produto-ingredientes">Base creme de leite, goiabada derretida, requeijão</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Banana com canela
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$36,90</p>
+    <p class="produto-ingredientes">Base creme de leite, banana em rodelas, açúcar e canela, leite condensado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Leite condensado com coco
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$38,90</p>
+    <p class="produto-ingredientes">Base creme de leite, leite condensado, coco ralado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Doce de leite com paçoca
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$42,90</p>
+    <p class="produto-ingredientes">Base creme de leite, doce de leite, paçoca </p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        M&M's
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$46,90</p>
+    <p class="produto-ingredientes">Base creme de leite, chocolate derretido, m&m</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Chocolate branco com morango
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$47,90</p>
+    <p class="produto-ingredientes">Base creme de leite, chocolate branco derretido, morango fatiado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Ninho com nutella
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$48,90</p>
+    <p class="produto-ingredientes">Base creme de leite, nutella, leite em pó</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Sensação
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$47,90</p>
+    <p class="produto-ingredientes">Base creme de leite, chocolate ao leite, morango, leite condensado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Brownie com ganache
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$49,90</p>
+    <p class="produto-ingredientes">Base creme de leite, brownie picado, ganache de chocolate</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Beijinho com canela
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$40,90</p>
+    <p class="produto-ingredientes">Base creme de leite, beijinho, coco ralado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Churros
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$42,90</p>
+    <p class="produto-ingredientes">Base creme de leite, doce de leite, açúcar e canela</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Oreo
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">45,90</p>
+    <p class="produto-ingredientes">Base creme de leite, creme de chocolate branco, oreo picado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Kit kat
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$47,90</p>
+    <p class="produto-ingredientes">Base creme de leite, chocolate ao leite, kit kat picado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Abacaxi caramelizado
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$39,90</p>
+    <p class="produto-ingredientes">Base creme de leite, abacaxi caramelizado, canela e açucar</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Goiabada com cream cheese
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$41,90</p>
+    <p class="produto-ingredientes">Base creme de leite, goiabada derretida, cream cheese</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Cheesecake com frutas vermelhas
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$48,90</p>
+    <p class="produto-ingredientes">Base creme de leite, creme de cheesecake, frutas vermelhas</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Pistache com chocolate branco
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$52,90</p>
+    <p class="produto-ingredientes">Base creme de leite, chocolate branco, pistache triturado</p>
+</div>
+
+<div class="produto" onclick="mostrarIngredientes(this)">
+    <h3 class="produto-nome">
+        Paçoca com leite condensado
+    <span class="clique-info">(Clique para saber os ingredientes)</span>
+    </h3>
+    <p class="produto-preco">R$42,90</p>
+    <p class="produto-ingredientes">Base creme de leite, leite condensado, paçoca</p>
+</div>
+
+</body>
+</html>

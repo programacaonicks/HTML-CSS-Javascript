@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #f4e409;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+h2 {
+  color: white;
+  border-bottom: 2px solid #d8b100;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.logotipo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 50px;
+  display: block;
+  margin: 20px auto;
+}
+
+nav {
+  background-color: #1a1a72;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+nav li {
+  margin: 5px 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #c1740f;
+}
+
+.botao-feliz-container {
+  text-align: center;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.botao-feliz {
+  background-color: #e67e22;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.botao-feliz:hover {
+  background-color: #d35400;
+  transform: scale(1.05);
+}
+
+.produto {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.produto:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.produto-nome {
+  color: #f4e409;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.produto-preco {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.produto-ingredientes,
+.produto-sabores,
+.produto-itens {
+  color: blue;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 5px;
+  display: none;
+}
+
+.clique-info {
+  font-size: 0.8em;
+  color: white;
+  font-weight: normal;
+  margin-left: 8px;
+  font-style: italic;
+}
+
+.acrescimos-container {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  border-right: 1px solid #fff;
+}
+
+td {
+  font-size: 16px;
+  border-right: 1px solid #eee;
+}
+
+td:last-child,
+th:last-child {
+  border-right: none;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .logotipo {
+    max-width: 90%;
+    border-radius: 30px;
+  }
+
+  .botao-feliz {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .produto-nome {
+    font-size: 18px;
+  }
+
+  .produto-preco {
+    font-size: 16px;
+  }
+
+  .produto-ingredientes,
+  .produto-sabores,
+  .produto-itens {
+    font-size: 13px;
+  }
+
+  th, td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
